@@ -6,6 +6,6 @@ public abstract class MailSender {
             throw new IllegalStateException("SMTP indisponível");
         }
         if(to == null || !to.contains("@")) throw new IllegalArgumentException("email inválido");
-        // envia ...
+        
     }
 }
